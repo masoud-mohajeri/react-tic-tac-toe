@@ -1,0 +1,33 @@
+.tic {
+  width: calc(var(--rsize) - 2 * var(--border-size));
+  height: calc(var(--rsize) - 1 * var(--border-size));
+  // border: var(--border-size) solid rebeccapurple;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+
+  p {
+    display: inline-block;
+    font-size: 4rem;
+    transition: 2s;
+  }
+}
+// e9645d
+.br {
+  border-right: var(--border-size) solid var(--color-success);
+}
+
+.bl {
+  border-left: var(--border-size) solid var(--color-success);
+}
+
+.bt {
+  border-top: var(--border-size) solid var(--color-success);
+}
+
+.bb {
+  border-bottom: var(--border-size) solid var(--color-success);
+}

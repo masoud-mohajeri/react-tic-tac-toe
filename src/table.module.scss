@@ -1,0 +1,12 @@
+.body {
+  width: calc(3 * var(--rsize));
+  height: calc(3 * var(--rsize));
+  display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // align-content: center;
+  // flex-direction: column;
+  flex-wrap: wrap;
+  //
+  // border: 3px solid red;
+}
